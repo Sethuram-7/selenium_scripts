@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 public class SixteenthTestScript {
     public static void main(String[] args) throws InterruptedException {
-
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.tutorialspoint.com/selenium/practice/login.php#");
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
