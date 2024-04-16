@@ -21,7 +21,7 @@ public class SeventeenthTestScript {
         button_1.click();
         Thread.sleep(5000);
         WebElement element = driver.findElement(By.xpath("//*[@id=\"uploadFile\"]"));
-        element.sendKeys("C:\\Users\\Sethuram\\Downloads\\sampleFile.jpeg");
+        element.sendKeys("C:\\Users\\Sethuram\\Downloads\\sampleFile.jpeg"); 
         driver.quit();
     }
 }
